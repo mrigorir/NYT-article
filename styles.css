@@ -8,59 +8,47 @@
 
 /* ------ MAIN HEADER ------ */ 
 
-.main-header, 
-.main-header-searching {
+.main-header, .main-header-searching {
   display: flex;
   box-sizing: border-box;
-  align-items: center;
-}
+  align-items: center; }
 
 .main-header {
   justify-content: space-around;
   border-bottom: solid 1px #eee;
   padding-bottom: 2px;
-  flex-flow: wrap;
-}
+  flex-flow: wrap; }
 
-.search, 
-.cosmos {
-  margin-left: 20px;
-}
+.search, .cosmos {
+  margin-left: 20px; }
 
 .menu {
-  font-size: 20px;
-}
+  font-size: 20px; }
 
 .search {
-  font-size: 22px;
-}
+  font-size: 22px; }
 
 .navbar {
   background-color: transparent;
   border: none;
-  padding: 3px 6px 1px 6px;
-}
+  padding: 3px 6px 1px 6px; }
 
 .cosmos, 
 .main-header-register {
-  font-family: nyt-franklin,helvetica,arial,sans-serif;
-}
+  font-family: nyt-franklin,helvetica,arial,sans-serif; }
 
 .cosmos {
-  font-size: 14.25px;
+  font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
-  color: #000;
-}
+  color: #000; }
 
 .cosmos:hover {
-  text-decoration: underline;
-}
+  text-decoration: underline; }
 
 .newspaper-name {
-  padding-top: 5px;
-}
+  padding-top: 5px; }
 
 .main-header-register {
   color: white;
@@ -74,10 +62,8 @@
   border: 1px solid #326891;
   border-radius: 3px;
   padding: 8px 15px 7px 15px;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 .main-header-register:hover {
   background-color: #326891;
-  transition: ease 0.6s;
-}
+  transition: ease 0.6s; }
