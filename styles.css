@@ -1,14 +1,15 @@
 
-/* -------BASE------ */ 
+/* -------BASE------ */
 
 * {
   margin: 0;
   padding: 0;
 }
 
-/* ------ MAIN HEADER ------ */ 
+/* ------ MAIN HEADER ------ */
 
-.main-header, .main-header-searching {
+.main-header, 
+.main-header-searching {
   display: flex;
   box-sizing: border-box;
   align-items: center;
@@ -21,7 +22,8 @@
   flex-flow: wrap;
 }
 
-.search, .cosmos {
+.search, 
+.cosmos {
   margin-left: 20px;
 }
 
@@ -39,7 +41,8 @@
   padding: 3px 6px 1px 6px;
 }
 
-.cosmos, .main-header-register {
+.cosmos, 
+.main-header-register {
   font-family: nyt-franklin,helvetica,arial,sans-serif;
 }
 
