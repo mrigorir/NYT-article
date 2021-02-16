@@ -8,7 +8,7 @@
 
 /* ------ MAIN HEADER ------ */
 
-.main-header, 
+.main-header,
 .main-header-searching {
   display: flex;
   box-sizing: border-box;
@@ -22,7 +22,7 @@
   flex-flow: wrap;
 }
 
-.search, 
+.search,
 .cosmos {
   margin-left: 20px;
 }
@@ -41,7 +41,7 @@
   padding: 3px 6px 1px 6px;
 }
 
-.cosmos, 
+.cosmos,
 .main-header-register {
   font-family: nyt-franklin,helvetica,arial,sans-serif;
 }
