@@ -1,38 +1,40 @@
- /*-------BASE------*/
+
+/* -------BASE------ */ 
+
 * {
   margin: 0;
   padding: 0;
 }
- /* ------ MAIN HEADER ------*/
-.main-header, 
+
+/* ------ MAIN HEADER ------ */ 
+
+.main-header,
 .main-header-searching {
   display: flex;
-  box-sizing: border-box; 
+  box-sizing: border-box;
   align-items: center;
-} 
-
+}
 .main-header {
   justify-content: space-around;
   border-bottom: solid 1px #eee;
   padding-bottom: 2px;
   flex-flow: wrap;
-} 
-
+}
 .search, .cosmos {
   margin-left: 20px;
-} 
+}
 .menu {
   font-size: 20px;
 }
 .search {
-  font-size: 22 px;
+  font-size: 22px;
 }
 .navbar {
   background-color: transparent;
   border: none;
   padding: 3px 6px 1px 6px;
 }
-.cosmos, 
+.cosmos,
 .main-header-register {
   font-family: nyt-franklin,helvetica,arial,sans-serif;
 }
@@ -67,7 +69,3 @@
   background-color: #326891;
   transition: ease 0.6s;
 }
- 
-
-
-
