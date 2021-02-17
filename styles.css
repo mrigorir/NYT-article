@@ -6,6 +6,26 @@
   padding: 0;
 }
 
+body {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.centered {
+  width: 20%;
+  margin: 20px auto;
+}
+
+.divider {
+  border-top: solid 1px #ddd;
+  margin-top: 20px;
+}
+
+.black-divider {
+  border-top: solid 1px black;
+  margin-top: 50px;
+  width: 7%;
+}
+
 /* ------ MAIN HEADER ------ */
 
 .main-header,
@@ -20,14 +40,15 @@
   border-bottom: solid 1px #eee;
   padding-bottom: 2px;
   flex-flow: wrap;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
 }
 
-.search,
-.cosmos {
-  margin-left: 20px;
-}
-
-.menu {
+.menu,
+.article-main-text,
+.inflation-title {
   font-size: 20px;
 }
 
@@ -42,12 +63,21 @@
 }
 
 .cosmos,
-.main-header-register {
+.main-header-register,
+.unlock-articles,
+.picks-title,
+.inflation-text {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
-.cosmos {
+.cosmos,
+.picks-title,
+.picks-links,
+.inflation-autor {
   font-size: 14px;
+}
+
+.cosmos {
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
@@ -80,4 +110,260 @@
 .main-header-register:hover {
   background-color: #326891;
   transition: ease 0.6s;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.article-heading {
+  margin-top: 100px;
+  line-height: 280%;
+}
+
+.article-title,
+.pick-links,
+.inflation-title {
+  color: #121212;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+}
+
+.article-social-icons {
+  margin-top: 10px;
+}
+
+.social-links {
+  font-size: 30px;
+  margin-right: 0;
+  margin-right: 15px;
+}
+
+.fa-comment-alt {
+  position: relative;
+  font-size: 40px;
+  top: 8px;
+}
+
+.fa-facebook-f {
+  padding: 8px 15px;
+}
+
+.fa-whatsapp {
+  padding: 8px 10px;
+}
+
+.fa-share,
+.fa-twitter {
+  padding: 8px 8px;
+}
+
+.fa-share,
+.fa-facebook-f,
+.fa-whatsapp,
+.fa-twitter {
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.comment-number {
+  font-size: 16px;
+  position: absolute;
+  top: 7px;
+  left: 8px;
+}
+
+#img-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+}
+
+#img-container .alanImg,
+.img-footer {
+  width: 60%;
+}
+
+.img-footer,
+.cite,
+.article-main-text {
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+}
+
+.img-footer {
+  margin-top: 15px;
+  color: #666;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+}
+
+.cite {
+  display: inline;
+  color: #888;
+  line-height: 1.125rem;
+  -webkit-letter-spacing: 0.01em;
+  -moz-letter-spacing: 0.01em;
+  -ms-letter-spacing: 0.01em;
+  letter-spacing: 0.01em;
+  font-size: 0.75rem;
+}
+
+/* ------ MAIN TEXT------ */
+
+.article-body {
+  margin: 50px auto;
+  width: 30%;
+  color: #333;
+  position: relative;
+}
+
+.article-reporter {
+  font-size: 15px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.article-reporter a,
+.pick-links,
+.inflation-autor {
+  text-decoration: none;
+  color: #333;
+}
+
+.article-date {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.article-main-text {
+  margin-top: 30px;
+  line-height: 160%;
+}
+
+.unlock-articles,
+.unlock-links {
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+
+.unlock-links {
+  text-decoration: none;
+}
+
+.unlock-links,
+.main-text-links,
+.unlock-links:visited,
+.main-text-links:visited {
+  color: #326891;
+}
+
+/* ------ Article Aside ------ */
+
+.article-aside-picks {
+  width: 200px;
+  position: absolute;
+  right: -300px;
+  top: 1180px;
+}
+
+.picks-title,
+.social-links,
+.inflation-title {
+  color: black;
+}
+
+.picks-title {
+  font-weight: bold;
+  margin-bottom: -10px;
+}
+
+.picks {
+  margin-top: 20px;
+}
+
+.picks img {
+  float: left;
+  margin-right: 10px;
+}
+
+.pick-links:hover,
+.picks img:hover {
+  text-decoration: underline;
+}
+
+/* ------ Main text ------ */
+
+#inflation-title {
+  margin: 50px auto 0 auto;
+}
+
+#inflation-title,
+#inflation-container {
+  width: 50%;
+}
+
+#inflation-container {
+  margin: 0 auto;
+}
+
+.extended {
+  width: 100%;
+}
+
+.inflation-img-container {
+  position: relative;
+}
+
+#inflation-img {
+  width: 945px;
+  height: 576px;
+  margin-top: 20px;
+}
+
+.inflation-text {
+  line-height: 17px;
+  font-weight: 300;
+  width: 220px;
+  position: absolute;
+  font-size: 12px;
+}
+
+.inflation-first-row-text,
+.inflation-second-row-text,
+.inflation-third-row-text,
+.inflation-fourth-row-text {
+  top: 200px;
+}
+
+.inflation-second-row-text,
+.inflation-sixth-row-text {
+  left: 240px;
+}
+
+.inflation-third-row-text,
+.inflation-seventh-row-text {
+  left: 480px;
+}
+
+.inflation-fourth-row-text,
+.inflation-eight-row-text {
+  left: 720px;
+}
+
+.inflation-fifth-row-text,
+.inflation-sixth-row-text,
+.inflation-seventh-row-text,
+.inflation-eight-row-text {
+  top: 480px;
+}
+
+.inflation-autor {
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 20px;
 }
