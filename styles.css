@@ -438,7 +438,7 @@ footer {
   padding-right: 80px;
 }
 
- /* ----- Footpage Navigation ----- */
+/* ----- Footpage Navigation ----- */
 
 .footpage {
   width: 65%;
@@ -452,15 +452,14 @@ footer {
   border-top: 1px solid #e2e2e2;
 }
 
-.footpage div:first-child svg {
-  width: 184px;
-  height: 44px;
-}
-
 .footpage div:last-child {
   margin-top: 10px;
 }
 
+.footpage div:first-child svg {
+  width: 184px;
+  height: 44px;
+}
 
 .footpage div:last-child ul {
   color: rgb(51, 51, 51);
@@ -471,14 +470,6 @@ footer {
 
 .footpage div:last-child li {
   margin-top: 9px;
-}
-
-.footpage div:last-child ul:last-child li:nth-of-type(-n+4) a {
-  margin-bottom: 15px;
-  color: #000;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 15px;
 }
 
 .footpage div:first-child a:last-child {
@@ -494,7 +485,7 @@ footer {
 
 .footpage div:last-child ul:last-child {
   padding-left: 15px;
-  border-left: 1px solid rgb(226, 226, 226);
+  border-left: 1px solid #ddd;
 }
 
 .footpage div:last-child li:first-child {
@@ -533,8 +524,15 @@ footer {
   margin-bottom: 20px;
 }
 
+.footpage div:last-child ul:last-child li:nth-of-type(-n+4) a {
+  margin-bottom: 15px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 15px;
+}
 
- /* ----- Footer -----*/
+/* ----- Footer -----*/
 
 .footer-page {
   width: 65%;
