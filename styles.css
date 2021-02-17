@@ -472,6 +472,15 @@ footer {
   margin-top: 9px;
 }
 
+.footpage div:last-child ul:last-child {
+  padding-left: 15px;
+  border-left: 1px solid #ddd;
+}
+
+.footpage div:last-child li:first-child {
+  margin-top: 13px;
+}
+
 .footpage div:first-child a:last-child {
   margin-top: auto;
   margin-bottom: 12px;
@@ -483,21 +492,6 @@ footer {
   text-decoration: none;
 }
 
-.footpage div:last-child ul:last-child {
-  padding-left: 15px;
-  border-left: 1px solid #ddd;
-}
-
-.footpage div:last-child li:first-child {
-  margin-top: 13px;
-}
-
-.footpage div:last-child ul:last-child svg {
-  width: 13px;
-  height: 13px;
-  margin-right: 7px;
-}
-
 .footpage div:last-child ul a {
   color: #000;
   text-decoration: none;
@@ -505,6 +499,12 @@ footer {
   font-size: 13px;
   font-weight: 500;
   line-height: 16px;
+}
+
+.footpage div:last-child ul:last-child svg {
+  width: 13px;
+  height: 13px;
+  margin-right: 7px;
 }
 
 .footpage div:last-child ul a:hover {
@@ -532,7 +532,7 @@ footer {
   line-height: 15px;
 }
 
-/* ----- Footer -----*/
+/* ----- Footer ----- */
 
 .footer-page {
   width: 65%;
