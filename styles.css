@@ -40,9 +40,9 @@ body {
   border-bottom: solid 1px #eee;
   padding-bottom: 2px;
   flex-flow: wrap;
-  background-color:white;
-  position: fixed; 
-  width: 100%; 
+  background-color: white;
+  position: fixed;
+  width: 100%;
   z-index: 10;
 }
 
@@ -126,7 +126,7 @@ body {
 .article-title,
 .pick-links,
 .inflation-title {
-  color: #121212; 
+  color: #121212;
   font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
 }
 
@@ -136,18 +136,18 @@ body {
 
 .social-links {
   font-size: 30px;
-  margin-right: 0px;
+  margin-right: 0;
   margin-right: 15px;
 }
 
 .fa-comment-alt {
   position: relative;
   font-size: 40px;
-  top: 8px;  
+  top: 8px;
 }
 
 .fa-facebook-f {
-  padding: 8px 15px;  
+  padding: 8px 15px;
 }
 
 .fa-whatsapp {
@@ -164,7 +164,7 @@ body {
 .fa-whatsapp,
 .fa-twitter {
   background-color: #eee;
-  border-radius: 50%; 
+  border-radius: 50%;
 }
 
 .comment-number {
@@ -180,12 +180,11 @@ body {
   justify-content: center;
   align-items: center;
   flex-flow: wrap;
-
 }
 
-#img-container img,
+#img-container .alanImg,
 .img-footer {
-  width: 60%;  
+  width: 60%;
 }
 
 .img-footer,
@@ -210,14 +209,14 @@ body {
   -ms-letter-spacing: 0.01em;
   letter-spacing: 0.01em;
   font-size: 0.75rem;
-} 
+}
 
 /* ------ MAIN TEXT------ */
  
 .article-body {
   margin: 50px auto;
   width: 30%;
-  color: 333;
+  color: #333;
   position: relative;
 }
 
@@ -270,7 +269,6 @@ body {
   position: absolute;
   right: -300px;
   top: 1180px;
-
 }
 
 .picks-title,
@@ -286,7 +284,7 @@ body {
 
 .picks {
   margin-top: 20px;
-} 
+}
 
 .picks img {
   float: left;
@@ -311,7 +309,7 @@ body {
 
 #inflation-container {
   margin: 0 auto;
-} 
+}
 
 .extended {
   width: 100%;
@@ -332,7 +330,7 @@ body {
   font-weight: 300;
   width: 220px;
   position: absolute;
-  font-size:12px;
+  font-size: 12px;
 }
 
 .inflation-first-row-text,
