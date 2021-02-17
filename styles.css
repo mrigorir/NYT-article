@@ -31,7 +31,7 @@ body {
 
 .main-header,
 .extended {
-  width: 100%!important;
+  width: 100% !important;
 }
 
 /* ------ MAIN HEADER ------ */
@@ -46,8 +46,7 @@ body {
 .main-header,
 .container,
 .footpage,
-footer ul
- {
+footer ul {
   display: flex;
 }
 
@@ -94,10 +93,6 @@ footer ul {
   padding: 3px 6px 1px 6px;
 }
 
-.cosmos {
-  margin-left: 20px;
-}
-
 .main-header-register,
 .unlock-articles,
 .inflation-text,
@@ -118,6 +113,7 @@ footer ul {
   text-transform: uppercase;
   text-decoration: none;
   color: #000;
+  margin-left: 2px;
 }
 
 .cosmos:hover {
@@ -151,7 +147,7 @@ footer ul {
 #img-container,
 .container,
 footer ul {
-justify-content: center;
+  justify-content: center;
 }
 
 .article-heading {
@@ -170,7 +166,7 @@ justify-content: center;
   margin-top: 10px;
 }
 
- .social-links:hover i:not(.fa-bookmark, .fa-comment-alt) {
+.social-links:hover i:not(.fa-bookmark, .fa-comment-alt) {
   background-color: #fff;
   border: solid 1px #ddd;
 }
@@ -239,15 +235,15 @@ justify-content: center;
   margin-top: 15px;
   font-size: 0.75rem;
   line-height: 1.3rem;
-} 
+}
 
 .img-footer,
-.img-footer a,
-.img-footer a:visited {
+.img-footer a.suscribe-link,
+.img-footer a.suscribe-link:visited {
   color: #666;
 }
 
-.img-footer a:hover {
+.img-footer a.suscribe-link:hover {
   text-decoration: none;
 }
 
@@ -278,7 +274,7 @@ justify-content: center;
   margin-bottom: 20px;
 }
 
-.article-reporter a,
+.article-reporter a.reporter-link,
 .inflation-autor,
 .pick-links {
   text-decoration: none;
@@ -306,10 +302,10 @@ justify-content: center;
   text-decoration: none;
 }
 
-.main-text-links:visited,
-.unlock-links:visited,
 .main-text-links,
-.unlock-links {
+.unlock-links,
+.main-text-links:visited,
+.unlock-links:visited {
   color: #326891;
 }
 
@@ -423,7 +419,7 @@ footer {
 }
 
 #telescope-container {
-  width:40%;
+  width: 40%;
 }
 
 .footpage div:first-child,
@@ -433,15 +429,14 @@ footer {
 }
 
 .social-container {
-  margin-top:30px;
+  margin-top: 30px;
   flex-flow: wrap;
 }
 
 .social-container a.main-header-register {
-  padding-left:80px;
-  padding-right:80px;
-} 
-
+  padding-left: 80px;
+  padding-right: 80px;
+}
 
 /* ----- Footpage Navigation ----- */ 
 
@@ -462,17 +457,6 @@ footer {
   height: 44px;
 }
 
-.footpage div:first-child a:last-child {
-  margin-top: auto;
-  margin-bottom: 12px;
-  color: #567b95;
-  font-size: 11px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 11px;
-  text-decoration: none;
-}
-
 .footpage div:last-child {
   margin-top: 10px;
 }
@@ -484,47 +468,34 @@ footer {
   text-transform: uppercase;
 }
 
+.footpage div:last-child li {
+  margin-top: 9px;
+}
+
+.footpage div:first-child a:last-child {
+  margin-top: auto;
+  margin-bottom: 12px;
+  color: #567b95;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+  text-decoration: none;
+}
+
 .footpage div:last-child ul:last-child {
   padding-left: 15px;
   border-left: 1px solid rgb(226, 226, 226);
+}
+
+.footpage div:last-child li:first-child {
+  margin-top: 13px;
 }
 
 .footpage div:last-child ul:last-child svg {
   width: 13px;
   height: 13px;
   margin-right: 7px;
-}
-
-.footpage div:last-child ul:last-child li:nth-of-type(-n+4) a {
-  margin-bottom: 15px;
-}
-
-.footpage div:last-child ul:last-child li:nth-of-type(4) a {
-  margin-bottom: 20px;
-}
-
-.footpage div:last-child ul:last-child li:nth-of-type(-n+4) a {
-  color: #000;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 15px;
-}
-
-.footpage div:last-child ul:last-child li:nth-of-type(7) {
-  padding-bottom: 9px;
-  border-bottom: 1px solid #ddd
-}
-
-.footpage div:last-child ul:last-child li a {
-  font-size: 11px;
-}
-
-.footpage div:last-child li {
-  margin-top: 9px;
-}
-
-.footpage div:last-child li:first-child {
-  margin-top: 13px;
 }
 
 .footpage div:last-child ul a {
@@ -536,28 +507,49 @@ footer {
   line-height: 16px;
 }
 
+.footpage div:last-child ul:last-child li a {
+  font-size: 11px;
+}
+
 .footpage div:last-child ul a:hover {
   text-decoration: underline;
 }
 
+.footpage div:last-child ul:last-child li:nth-of-type(7) {
+  padding-bottom: 9px;
+  border-bottom: 1px solid #ddd;
+}
+
+.footpage div:last-child ul:last-child li:nth-of-type(4) a {
+  margin-bottom: 20px;
+}
+
+.footpage div:last-child ul:last-child li:nth-of-type(-n+4) a {
+  margin-bottom: 15px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 15px;
+}
+
 /* ----- Footer -----*/
 
-footer {
+.footer-page {
   width: 65%;
   padding-top: 9px;
   border-top: 1px solid #ebebeb;
 }
 
-footer ul {
+.footer-list {
   flex-flow: wrap;
   margin-bottom: 35px;
 }
 
-footer ul li {
+.footer-topics {
   padding: 0 10px;
 }
 
-footer ul li a {
+.footer-links {
   color: #666;
   font-size: 11px;
 }
