@@ -235,7 +235,7 @@ footer ul {
 .suggested-news-heading {
   color: #121212;
   font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
-} 
+}
 
 .article-social-icons {
   margin-top: 10px;
@@ -557,14 +557,14 @@ footer {
   font-size: 18px;
   font-weight: normal;
   text-align: justify;
-} 
+}
 
 .suggested-news-heading:hover {
   opacity: 0.8;
 }
 
 .suggested-news-time {
-  font-size: 10px;  
+  font-size: 10px; 
 }
 
 .suggested-news-pic,
@@ -582,7 +582,7 @@ footer {
 }
 
 .most-popular-list a {
- color: #121212;
+  color: #121212;
 }
 
 /* ----- Footpage Navigation ----- */
@@ -696,4 +696,9 @@ footer {
 .topics-links:hover,
 .suggested-title-section:hover {
   text-decoration: underline;
+}
+
+.main-header-register:hover {
+  background-color: #326891;
+  transition: ease 0.6s;
 }
