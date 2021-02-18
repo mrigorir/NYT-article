@@ -20,7 +20,7 @@ body {
 
 .mt-20 {
   margin-top: 20px;
-} 
+}
 
 .mb-10 {
   margin-bottom: 10px;
@@ -47,7 +47,7 @@ body {
   border-top: solid 1px black;
   margin-top: 50px;
   width: 7%;
-} 
+}
 
 .main-header,
 .extended {
@@ -452,7 +452,7 @@ footer {
 .footpage {
   width: 65%;
   padding-bottom: 18px;
-  border-top: 2px solid #e2e2e2; 
+  border-top: 2px solid #e2e2e2;
 }
 
 .homepage {
@@ -486,8 +486,7 @@ footer {
   display: grid;
   gap: 20px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-areas: 
-  "1 2 3 4 5 6";
+  grid-template-areas: "1 2 3 4 5 6";
 }
 
 .topics-links {
@@ -535,7 +534,7 @@ footer {
 
 .suscribe-list .topics-links {
   margin-bottom: 20px;
-} 
+}
 
 /* ----- Footer ----- */
 
