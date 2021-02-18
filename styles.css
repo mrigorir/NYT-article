@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 li {
@@ -13,6 +14,26 @@ body {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
+.mt-10 {
+  margin-top: 5px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+} 
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
 .centered {
   width: 20%;
   margin: 20px auto;
@@ -20,14 +41,13 @@ body {
 
 .divider {
   border-top: solid 1px #ddd;
-  margin-top: 20px;
 }
 
 .black-divider {
   border-top: solid 1px black;
   margin-top: 50px;
   width: 7%;
-}
+} 
 
 .main-header,
 .extended {
@@ -36,34 +56,24 @@ body {
 
 /* ------ MAIN HEADER ------ */
 
-.footpage div:last-child ul:last-child li:nth-of-type(-n+4) a,
 .social-container a.main-header-register,
-.footpage div:first-child,
-.footpage div:last-child,
 .main-header-searching,
 .social-container,
 #img-container,
 .main-header,
 .container,
-.footpage,
+.svg,
 footer ul {
   display: flex;
 }
 
-.footpage div:last-child ul:last-child li:nth-of-type(-n+4) a,
 .social-container a.main-header-register,
-.footpage div:first-child,
 .main-header-searching,
 #img-container,
 .main-header,
 .container,
 footer ul {
   align-items: center;
-}
-
-.main-header-searching,
-.main-header {
-  box-sizing: border-box;
 }
 
 .main-header {
@@ -84,7 +94,8 @@ footer ul {
 
 .search {
   font-size: 22px;
-  margin-left: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .navbar {
@@ -113,7 +124,6 @@ footer ul {
   text-transform: uppercase;
   text-decoration: none;
   color: #000;
-  margin-left: 2px;
 }
 
 .cosmos:hover {
@@ -422,9 +432,8 @@ footer {
   width: 40%;
 }
 
-.footpage div:first-child,
-.footpage div:last-child,
-.social-container {
+.social-container,
+.svg {
   justify-content: space-between;
 }
 
@@ -443,8 +452,7 @@ footer {
 .footpage {
   width: 65%;
   padding-bottom: 18px;
-  flex-direction: column;
-  border-top: 2px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2; 
 }
 
 .homepage {
@@ -470,10 +478,16 @@ footer {
 .svg {
   margin-top: 1px;
   border-top: 1px solid #e2e2e2;
+  flex-flow: nowrap;
 }
 
 .topics-list {
   margin-top: 10px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  "1 2 3 4 5 6";
 }
 
 .topics-links {
@@ -521,7 +535,7 @@ footer {
 
 .suscribe-list .topics-links {
   margin-bottom: 20px;
-}
+} 
 
 /* ----- Footer ----- */
 
