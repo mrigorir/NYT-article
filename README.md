@@ -6,7 +6,9 @@
 
 ![screenshot](https://imgur.com/NZZEzaC.png)
 
-Additional description about the project and its features.
+Live Demo: 
+
+https://mrigorir.github.io/NYT-article/
 
 ## Built With
 
