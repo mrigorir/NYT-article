@@ -212,11 +212,6 @@ footer ul {
   cursor: pointer;
 }
 
-.main-header-register:hover {
-  background-color: #326891;
-  transition: ease 0.6s;
-}
-
 #img-container,
 .container,
 footer ul {
