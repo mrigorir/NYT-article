@@ -22,7 +22,7 @@ https://mrigorir.github.io/NYT-article/
 
 - GitHub: [@githubhandle](https://github.com/mrigorir)
 - Twitter: [@twitterhandle](https://twitter.com/marcoparra311)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/marco-parra-leal-a93318101/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/marco-alonso-parra/)
 
 ## 🤝 Contributing
 
